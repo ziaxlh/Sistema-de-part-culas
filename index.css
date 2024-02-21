@@ -1,0 +1,23 @@
+body {
+    background: #000000;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#particles::after {
+    content: " ";
+    position: absolute;
+    top: -2000px;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    border-radius: 100%;
+}
+
+#canvas {
+    position: absolute;
+}
